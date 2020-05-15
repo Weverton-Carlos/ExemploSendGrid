@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploSendGrid", "ExemploSendGrid.csproj", "{DCB939BB-BD1F-44D6-A179-426C5FF9873A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploSendGridFrameWork", "..\ExemploSendGridFrameWork\ExemploSendGridFrameWork.csproj", "{58DD3D15-2546-4DAE-8EA5-5D4038FE78FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemeploSendGridAPI", "..\ExemeploSendGridAPI\ExemeploSendGridAPI.csproj", "{95790634-CE89-4E2A-BA68-80AA4F0CCD02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCB939BB-BD1F-44D6-A179-426C5FF9873A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB939BB-BD1F-44D6-A179-426C5FF9873A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB939BB-BD1F-44D6-A179-426C5FF9873A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB939BB-BD1F-44D6-A179-426C5FF9873A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DD3D15-2546-4DAE-8EA5-5D4038FE78FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DD3D15-2546-4DAE-8EA5-5D4038FE78FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DD3D15-2546-4DAE-8EA5-5D4038FE78FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DD3D15-2546-4DAE-8EA5-5D4038FE78FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95790634-CE89-4E2A-BA68-80AA4F0CCD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95790634-CE89-4E2A-BA68-80AA4F0CCD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95790634-CE89-4E2A-BA68-80AA4F0CCD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95790634-CE89-4E2A-BA68-80AA4F0CCD02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {264B8128-B8BD-4FF5-9D63-3505EE4CC0F7}
+	EndGlobalSection
+EndGlobal
