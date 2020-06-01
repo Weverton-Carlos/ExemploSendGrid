@@ -17,9 +17,9 @@ namespace ExemploSendGrid
 
         public static async Task Execute()
         {
-            //chave
+            //Chave
             var apiKey = Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
-            //cliente
+            //Cliente
             var client = new SendGridClient(apiKey);
             
             //mensagem
@@ -31,7 +31,7 @@ namespace ExemploSendGrid
                 PlainTextContent = "Hello, Email!",
                 HtmlContent = "<strong>Hello, Email!</strong>"
             };
-            //add destinatario
+            //Adicionar Destinatário
             msg.AddTo(new EmailAddress("test@example.com", "Test User"));
             var response = await client.SendEmailAsync(msg);
         }
