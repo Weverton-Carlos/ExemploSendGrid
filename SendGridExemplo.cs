@@ -17,7 +17,9 @@ namespace ExemploSendGrid
 
         public static async Task Execute()
         {
+            //chave
             var apiKey = Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
+            //cliente
             var client = new SendGridClient(apiKey);
             var msg = new SendGridMessage()
             {
