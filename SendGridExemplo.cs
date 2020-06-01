@@ -34,6 +34,7 @@ namespace ExemploSendGrid
             //Adicionar Destinatário
             msg.AddTo(new EmailAddress("test@example.com", "Test User"));
             var response = await client.SendEmailAsync(msg);
+            //Linha adicionada
         }
     }
 }
